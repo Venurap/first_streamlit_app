@@ -33,7 +33,7 @@ import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + fruit_choice)
 
 # streamlit.text(fruityvice_response)
-# streamlit.text(fruityvice_response.json()) # Just writes data to the screen 
+streamlit.text(fruityvice_response.json()) # Just writes data to the screen 
 
 # write your own comment -what does the next line do? 
 # Takes the json version and normalize it
