@@ -1,5 +1,6 @@
 import streamlit 
 import pandas
+import snowflake.connector
 
 streamlit.title('My Parents New Healthy Diner 😺')
 # streamlit.header('\N{flexed biceps} Breakfast of Champion Coders \N{flexed biceps}')
